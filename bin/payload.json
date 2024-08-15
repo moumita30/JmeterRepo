@@ -1,0 +1,46 @@
+{
+    "items": [
+        {
+			"recordCode": "ECM",
+			"configKey": "dynamicColumn.employee",
+			"configValue": "{\"dynamicColumns\":[{\"dataField\":\"simpleDocumentAttributes.Employee Object ID.value\",\"name\":\"Employee Object ID\",\"alias\":\"\",\"id\":\"Employee Object ID\",\"type\":\"string\"},{\"dataField\":\"simpleDocumentAttributes.Employee ID.value\",\"name\":\"Employee ID\",\"alias\":\"\",\"id\":\"Employee ID\",\"type\":\"string\"},{\"dataField\":\"simpleDocumentAttributes.First Name.value\",\"name\":\"First Name\",\"alias\":\"FName\",\"id\":\"First Name\",\"type\":\"string\"},{\"dataField\":\"simpleDocumentAttributes.Last Name.value\",\"name\":\"Last Name\",\"alias\":\"LName\",\"id\":\"Last Name\",\"type\":\"string\"},{\"dataField\":\"simpleDocumentAttributes.Hire Date.value\",\"name\":\"Hire Date\",\"alias\":\"\",\"id\":\"Hire Date\",\"type\":\"string\"},{\"dataField\":\"simpleDocumentAttributes.Manager.value\",\"name\":\"Manager\",\"alias\":\"\",\"id\":\"Manager\",\"type\":\"string\"},{\"dataField\":\"simpleDocumentAttributes.Department.value\",\"name\":\"Department\",\"alias\":\"\",\"id\":\"Department\",\"type\":\"string\"},{\"dataField\":\"simpleDocumentAttributes.Employee Top Skill.value\",\"name\":\"Employee Top Skill\",\"alias\":\"\",\"id\":\"Employee Top Skill\",\"type\":\"string\"},{\"dataField\":\"simpleDocumentAttributes.Applying Position.value\",\"name\":\"Applying Position\",\"alias\":\"\",\"id\":\"Applying Position\",\"type\":\"string\"},{\"dataField\":\"simpleDocumentAttributes.File Preview.value\",\"name\":\"File Preview\",\"alias\":\"Preview\",\"id\":\"filePreview\",\"type\":\"image\"},{\"dataField\":\"simpleDocumentAttributes.Document Link.value\",\"name\":\"Document Link\",\"alias\":\"Link\",\"id\":\"documentLink\",\"type\":\"externalLink\"}]}",
+			"mediaType": "application/json",
+			"categoryName": "hfw"
+		},
+        {
+			"recordCode": "COMMON",
+			"configKey": "fieldMap.employee",
+			"configValue": "[{\"buisnessObjectAttribute\":\"Employee Object ID\",\"documentAttribute\":{\"name\":\"Employee Object ID\",\"id\":\"161\"}},{\"buisnessObjectAttribute\":\"Employee ID\",\"documentAttribute\":{\"name\":\"Employee ID\",\"id\":\"162\"}},{\"buisnessObjectAttribute\":\"First Name\",\"documentAttribute\":{\"name\":\"First Name\",\"id\":\"163\"}},{\"buisnessObjectAttribute\":\"Last Name\",\"documentAttribute\":{\"name\":\"Last Name\",\"id\":\"164\"}},{\"buisnessObjectAttribute\":\"Hire Date\",\"documentAttribute\":{\"name\":\"Hire Date\",\"id\":\"165\"}},{\"buisnessObjectAttribute\":\"Termination Date\",\"documentAttribute\":{\"name\":\"Termination Date\",\"id\":\"166\"}},{\"buisnessObjectAttribute\":\"Department\",\"documentAttribute\":{\"name\":\"Department\",\"id\":\"167\"}},{\"buisnessObjectAttribute\":\"Manager Name\",\"documentAttribute\":{\"name\":\"Manager\",\"id\":\"168\"}},{\"buisnessObjectAttribute\":\"Designation\",\"documentAttribute\":{\"name\":\"Description\",\"id\":\"1\"}}]",
+			"mediaType": "application/json",
+			"categoryName": "hfw"
+		},
+        {
+			"recordCode": "COMMON",
+			"configKey": "domainMapping.employee",
+			"configValue": "[{\"DomainName\":\"HCM\",\"DocumentTypeGroup\":{\"Name\":\"Employee Documents\",\"Id\":\"101\"}}]",
+			"mediaType": "application/json",
+			"categoryName": "hfw"
+		},
+        {
+			"recordCode": "COMMON",
+			"configKey": "docSearchQueryConfig.employee",
+			"configValue": "{\"DocumentCreationDateRange\":{\"StartDate\":\"2023-04-12\",\"EndDate\":\"Today\"},\"DocumentAttributeGroupId\":\"101\",\"BusinessObjectIdMetadataId\":\"161\"}",
+			"mediaType": "application/json",
+			"categoryName": "hfw"
+		},
+        {
+			"recordCode": "WORKDAY",
+			"configKey": "imagePreview.employee",
+			"configValue": "[{\"sectionName\":\"thumbnail\",\"ImageScalingParameters\":{\"Height\":400,\"Width\":400}},{\"sectionName\":\"captureSuccessPreview\",\"ImageScalingParameters\":{\"Height\":700,\"Width\":700}}]",
+			"mediaType": "application/json",
+			"categoryName": "hfw"
+		},
+        {
+            "configKey": "boRoles.employee",
+            "mediaType": "application/json",
+            "recordCode": "WORKDAY",
+            "configValue": "[{\"roleId\":\"hrpartner\",\"documentAccessPermitted\":true,\"roleName\":\"HRPartner\"},{\"roleId\":\"manager\",\"documentAccessPermitted\":true,\"roleName\":\"Manager\"},{\"roleId\":\"hrbp\",\"documentAccessPermitted\":true,\"roleName\":\"HRBusinessPartner\"}]",
+            "categoryName": "hfw"
+        }
+    ]
+}

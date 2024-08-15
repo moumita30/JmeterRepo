@@ -1,0 +1,7 @@
+{
+  "type": "https://tools.ietf.org/html/rfc7231#section-6.5.1",
+  "title": "Bad Request",
+  "status": 400,
+  "detail": "Stream size: 10 bytes is too small. Required (minimum) 370024 bytes",
+  "instance": "/documents/uploads/796d32f2-d5d3-4767-a206-d303ae676650"
+}

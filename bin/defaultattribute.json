@@ -1,0 +1,61 @@
+{
+    "businessObjectType": "employee",
+    "singleValuedBusinessObjectAttributes": [
+        {
+            "name": "Employee Object ID",
+            "value": "d7b4ce0ca31d41c29281e48a9bc52998",
+            "dataType": null,
+            "currency": null,
+            "dateFormat": null
+        },
+        {
+            "name": "Employee ID",
+            "value": "21187",
+            "dataType": null,
+            "currency": null,
+            "dateFormat": null
+        },
+        {
+            "name": "First Name",
+            "value": "Fernando",
+            "dataType": null,
+            "currency": null,
+            "dateFormat": null
+        },
+        {
+            "name": "Last Name",
+            "value": "Díaz",
+            "dataType": null,
+            "currency": null,
+            "dateFormat": null
+        },
+        {
+            "name": "Hire Date",
+            "value": "2000-01-01",
+            "dataType": null,
+            "currency": null,
+            "dateFormat": null
+        },
+        {
+            "name": "Termination Date",
+            "value": null,
+            "dataType": null,
+            "currency": null,
+            "dateFormat": null
+        },
+        {
+            "name": "Department",
+            "value": "Network & Telecom Department",
+            "dataType": null,
+            "currency": null,
+            "dateFormat": null
+        },
+        {
+            "name": "Manager Name",
+            "value": "Julie Bowles",
+            "dataType": null,
+            "currency": null,
+            "dateFormat": null
+        }
+    ]
+}

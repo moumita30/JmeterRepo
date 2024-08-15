@@ -1,0 +1,7 @@
+{
+  "type": "https://tools.ietf.org/html/rfc7231#section-6.6.1",
+  "title": "Internal Server Error",
+  "status": 500,
+  "detail": "Error code: (-7). Image was not recognized as a format the library can decompress.: Unable to store PageData as FileType Image File Format",
+  "instance": "/documents"
+}
